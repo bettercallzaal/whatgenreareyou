@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_PUBLIC_NEYNAR_API_KEY = "15CC284E-9C7E-44C8-9D32-BC82D3C05320"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
